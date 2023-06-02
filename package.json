@@ -1,0 +1,28 @@
+{
+  "name": "aws-swb",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A small library for working with AWS Service Workbench APIs",
+  "main": "src/swb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hic-infra/aws-swb.js.git"
+  },
+  "keywords": [
+    "swb",
+    "service",
+    "workbench"
+  ],
+  "author": "Health Informatics Centre, University of Dundee",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hic-infra/aws-swb.js/issues"
+  },
+  "homepage": "https://github.com/hic-infra/aws-swb.js#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
