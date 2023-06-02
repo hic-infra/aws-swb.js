@@ -14,18 +14,18 @@ which will then allow you to interact with AWS Service Workbench.
 ```js
 import SWB from 'aws-swb';
 
-# Currently only supports 'internal' scheme authentication.
+// Currently only supports 'internal' scheme authentication.
 const swbUsername = '';
 const swbPassword = '';
 
-# This refers to the API endpoint hosted by Amplify.
+// This refers to the API endpoint hosted by Amplify.
 const swbUrl = '';
 
-# Create a SWB object and do some testing.
+// Create a SWB object and do some testing.
 var swb = new SWB(swbUrl, swbUsername, swbPassword);
 var me = await swb.login();
 
-# Add a uid to a project
+// Add a uid to a project
 swb.addRemoveProjectUser('project-1234', 'u-XXXXXXXX', 'add')
   .then(r = {
     console.log('User added to project');
